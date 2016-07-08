@@ -1,0 +1,70 @@
+#map, body, html {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+/*    overflow-x:hidden;*/
+}
+.leaflet-popup-content {
+	width: 726px !important;
+}
+.journey {
+    width: 400px !important;
+}
+
+.camera-image, .camera-video {
+
+    /*display: inline-block;*/
+}
+
+img.jamcam {
+
+}
+
+p.rail-journey {
+    max-width: 300px;
+}
+
+.controls {
+    background-color: #1e1e1e;
+    height: 100%;
+    padding: 25px;
+}
+.map-cont {
+    padding: 0;
+}
+
+.controls h4, .controls p {
+ color: #eee;
+}
+
+#messages{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    padding: 0;
+}
+    #messages p{
+        margin:0; padding: 0;
+    }
+    #messages .message i{
+        margin-right: 10px;
+    }
+    #messages .message{
+        margin: 0;
+        padding: 10px 20px;
+        color: #fff;
+        width: 100%;
+        display: block;
+    }
+    #messages .message-info{
+        background: #363636;
+    }
+    #messages .message-error{
+        background: #d9534f;
+    }
+    #messages .message-activate {
+        background: #4FD951;
+    }
